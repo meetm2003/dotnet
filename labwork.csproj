@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>labwork.java_lab3.LinkedList</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="java lab1\calculator.cs" />
+    <Compile Include="java lab1\cmd_line.cs" />
+    <Compile Include="java lab1\fibonacci.cs" />
+    <Compile Include="java lab1\min_max.cs" />
+    <Compile Include="java lab2\complex_main.cs" />
+    <Compile Include="java lab2\stackClass.cs" />
+    <Compile Include="java lab3\LinkedList.cs" />
+    <Compile Include="java lab4\input.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
