@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace labwork
 {
-    internal class Program
+    internal class student
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World...");
+        public static void Main()
+        { 
+            Console.WriteLine("Hello, I am From student class");
         }
     }
 }
