@@ -22,11 +22,9 @@ namespace labwork.java_lab4
             Console.WriteLine("Enter float number : ");
             double num1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter double number : ");
-            double num2 = r.nextDouble();
+            double num2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter long number : ");
-            long num3 = r.nextLong();
-            Console.WriteLine("Enter text : ");
-            Console.WriteLine(r.hasNext("bvm"));
+            long num3 = Convert.ToInt64(Console.ReadLine());
 
 
             Console.WriteLine("String : " + str);

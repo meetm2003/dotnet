@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>labwork.java_lab3.LinkedList</StartupObject>
+    <StartupObject>labwork.java_lab4.input</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
