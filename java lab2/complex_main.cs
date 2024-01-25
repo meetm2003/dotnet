@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace labwork.java_lab2
 {
@@ -35,6 +31,7 @@ namespace labwork.java_lab2
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Meet Mistry...");
             complex c_ref1 = new complex(3, 6);
             c_ref1.display();
             complex c_ref2 = new complex(2, 5);

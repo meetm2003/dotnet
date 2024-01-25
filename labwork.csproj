@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>labwork.java_lab4.input</StartupObject>
+    <StartupObject>labwork.NET_lab_4.StudentDataInput</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include=".NET lab 4\FileIOP.cs" />
+    <Compile Include=".NET lab 4\FileReadAppend.cs" />
+    <Compile Include=".NET lab 4\StudentDataInput.cs" />
     <Compile Include="java lab1\calculator.cs" />
     <Compile Include="java lab1\cmd_line.cs" />
     <Compile Include="java lab1\fibonacci.cs" />
@@ -54,12 +57,24 @@
     <Compile Include="java lab2\stackClass.cs" />
     <Compile Include="java lab3\LinkedList.cs" />
     <Compile Include="java lab4\input.cs" />
+    <Compile Include="java lab4\matrix_addition.cs" />
+    <Compile Include="java lab4\matrix_transpose.cs" />
+    <Compile Include="java lab5\FileIODemo.cs" />
+    <Compile Include="java lab5\Number_trycatch.cs" />
+    <Compile Include="java lab5\Range_execp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".NET lab 4\file1.txt" />
+    <Content Include=".NET lab 4\file2.txt" />
+    <Content Include=".NET lab 4\file3.txt" />
+    <Content Include=".NET lab 4\mainfile.txt" />
+    <Content Include=".NET lab 4\test.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

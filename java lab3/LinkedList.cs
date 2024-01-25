@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace labwork.java_lab3
 {
@@ -56,8 +52,9 @@ namespace labwork.java_lab3
     }
     public class LinkedList
     {
-        public static void Main(String[] args)
+        public static void Main(string[] args)
         {
+            Console.WriteLine("Meet Mistry...");
             Node first = new Node(5);
             Node ref1 = new Node(15);
             Node ref2 = new Node(25);
