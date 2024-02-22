@@ -16,12 +16,10 @@ namespace labwork.java_lab5
 
             while (n != 0)
             {
-
                 try
                 {
                     if (n < -1000 || n > 1000) throw new Exception();
                     sum += n;
-                    //if(no==0) break;
                 }
                 catch (Exception e)
                 {
